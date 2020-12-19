@@ -1,6 +1,10 @@
 <template>
 	<div class="entrance">
-		<span>entrance</span>
+		<section class="entrance-inner">
+            <span>
+                entrance
+            </span>
+        </section>
 	</div>
 </template>
 

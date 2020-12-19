@@ -1,7 +1,8 @@
 <template>
 	<div class="home">
 		<img alt="Vue logo" :src="require( '@/assets/logo.png' )" />
-		<HelloWorld msg="Welcome to Your Vue.js App" />
+		
+        <HelloWorld msg="Welcome to Your Vue.js App" />
 	</div>
 </template>
 
@@ -11,7 +12,8 @@
 
 	export default {
 		name: 'Home',
-		components: {
+		
+        components: {
 			HelloWorld,
 		},
 	};
