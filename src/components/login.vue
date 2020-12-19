@@ -1,6 +1,9 @@
 <template>
     <div>
-        <input type="text"  />
+        <input type="text" v-model="loginForm.username" placeholder="user name"  />
+        <input type="text" v-model="loginForm.password" placeholder="password" />
+
+        <button @click="login">login</button>
     </div>
 </template>
 
@@ -15,7 +18,7 @@
             return {
                 loginForm: {
                     username: '',
-                    password: ''.
+                    password: '',
                 },
             };
         },
